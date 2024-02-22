@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #FDA22D; /* Puedes cambiar este valor por el color que desees */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    height: 50px;
+    margin-left: -1px;
+  }
+  
+  .texto-header {
+    margin-top: 10px;
+    line-height: 0.3;
+  }
+  
+  .navbar.navbar-expand-lg {
+    position: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 20px; /* Ajusta el tamaño de la letra según tus preferencias */
+    margin-right: 20px; /* Ajusta el espacio entre los elementos según tus preferencias */
+  }
+  
+  .navbar-toggler {
+    z-index: 1;
+    background-color: #FDA22D!important;
+    margin-left: 10px;
+  }
+  

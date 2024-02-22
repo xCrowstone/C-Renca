@@ -1,0 +1,28 @@
+.carousel-control {
+    color: white;
+    width: 15%;
+    opacity: .5;
+    opacity: .9;
+}
+
+.carousel-indicator {
+    width: 30px;
+    height: 3px;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-caption {
+    width: 70%;
+    color: white;
+    padding: 20px;
+    white-space: 20px;
+}
+
+.carousel-control {
+    border-image: 32px;
+}
+
+.carousel-transition {
+    -o-transition-duration: .6s;
+}

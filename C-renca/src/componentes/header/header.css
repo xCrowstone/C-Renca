@@ -1,0 +1,26 @@
+
+header {
+  background-color: #f1f1f1;
+ 
+  height: 60px;
+}
+
+.col-md{
+  height: 60px;
+}
+.card-title{
+  margin-top: 15px;
+}
+
+.logo-color-renca img {
+  position: absolute;
+  left: 10px; /* Ajusta la distancia desde la izquierda según sea necesario */
+  max-width: 150px; /* Establece el ancho máximo del logo */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+.texto-header {
+  margin-top: 10px;
+  line-height: 0.3;
+}
+

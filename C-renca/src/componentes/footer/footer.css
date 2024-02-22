@@ -1,0 +1,22 @@
+footer {
+  background-color: #FDA22D;
+  padding: 10px; /* Añade relleno para mejorar la apariencia */
+  /* Ajusta según sea necesario */
+  height: 95px;
+  
+
+  
+}
+
+.logo-renca img {
+  position: relative;
+  /* Ajusta la distancia desde la parte superior según sea necesario */
+  top: 1px;
+  right: 10px; /* Ajusta la distancia desde la izquierda según sea necesario */
+  max-width: 145px; /* Establece el ancho máximo del logo */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+.texto-footer {
+  line-height: 0.5;
+}

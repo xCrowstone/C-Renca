@@ -1,0 +1,263 @@
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    
+  }
+  
+  
+  .header{
+  background-color: #f1f1f1;
+  }
+  .navbar {
+  background-color: #FDA22D; /* Puedes cambiar este valor por el color que desees */
+  height: 50px;
+  box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.418);
+  }
+  .logo-color-renca img {
+  position: absolute;
+  left: 10px; /* Ajusta la distancia desde la izquierda según sea necesario */
+  max-width: 150px; /* Establece el ancho máximo del logo */
+  height: auto; /* Mantiene la proporción de aspecto */
+  }
+  
+  .texto-header{
+  margin-top: 10px;
+  line-height: 0.3;
+  }
+  
+  .navbar.navbar-expand-lg{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 20px; /* Ajusta el tamaño de la letra según tus preferencias */
+    margin-right: 20px; /* Ajusta el espacio entre los elementos según tus preferencias */
+  }
+  
+  .navbar-toggler {
+    z-index: 1;
+    background-color: #FDA22D!important;
+  }
+  
+  .offcanvas {
+    z-index: 0;
+    margin-top: 0px; /* Ajusta según la altura de tu navbar */
+    width: 200px !important;
+    background-color: #FDA22D!important;
+  }
+  
+  .navbar-collapse {
+    z-index: 1000;
+  }
+  
+  
+  .main{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #f1f1f1;
+  }
+  
+  .container-form{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.418);
+    height: 400px;
+    max-width: 900px;
+    transition: all 1s ease;
+    margin: 10px;
+    margin-top: 120px;
+  }
+  
+  .information{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #FDA22D;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .info-childs{
+    width: 100%;
+    padding: 0 px;
+  }
+  
+  .info-childs h2{
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hide{
+    position: absolute;
+    transform: translatey(-300%);
+  
+  }
+  
+  .info-childs p{
+    margin: 15px 0;
+    color: #000;
+  }
+  
+  .info-childs input{
+    background-color: transparent;
+    outline: none;
+    border: solid 2px #FF571E;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    transition: background-color .3s ease;
+  }
+  
+  .info-childs input:hover{
+    background-color: #FDA22D;
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0, .1);
+  }
+  
+  .form-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .form-information-childs{
+    padding: 0 30px;
+  }
+  
+  .form-information-childs h2{
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .form-information-childs p{
+    color: #555;
+  }
+  
+  form {
+    margin: 30px 0 0 0;
+  }
+  
+  form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0, .1);
+  }
+  
+  /*form label:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #4CAF50;
+  }*/
+  
+  form label input {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+  }
+  
+  form label i {
+    color: #a7a7a7;
+  }
+  
+  form input[type="submit"] {
+    background-color: #FDA22D;
+    color: #000;
+    border-radius: 20px;
+    border: solid 2px #FF571E;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0, .1);
+  }
+  
+  form input[type="submit"]:hover{
+    background-color: #FF571E;
+  }
+  
+  /*RESPONSIVE FORM*/
+  
+  @media(max-width:750px) {
+    .html{
+      font-size: 12px;
+    }
+  
+    .container-header{
+      width: 100%;
+      flex-direction: row;
+    }
+    
+    .container-form{
+      height: auto;
+      flex-direction: column;
+    }
+    .information{
+      width: 100%;
+      padding: 20px;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+    .form-information{
+      width: 100%;
+      padding: 20px;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 20px;
+    }
+    .footer{
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      height: 222px;
+      flex-direction: column;
+    }
+  
+    
+  }
+  
+  footer {
+    background-color: #FDA22D;
+    padding: 10px; /* Añade relleno para mejorar la apariencia */
+     /* Ajusta según sea necesario */
+    height: 80px;
+  }
+  
+  .logo-renca img{
+    
+    position: relative;
+    /* Ajusta la distancia desde la parte superior según sea necesario */
+      top: 1px;
+      right: 10px; /* Ajusta la distancia desde la izquierda según sea necesario */
+      max-width: 145px; /* Establece el ancho máximo del logo */
+      height: auto; /* Mantiene la proporción de aspecto */
+  }
+  
+  .texto-footer{
+    line-height: 0.5;
+  }
